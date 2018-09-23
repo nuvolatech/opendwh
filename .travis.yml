@@ -1,0 +1,25 @@
+# See http://about.travis-ci.org/docs/user/build-configuration/
+
+cache:
+  directories:
+    - $HOME/.m2/repository
+    - $HOME/.sbt
+    - $HOME/.ivy2
+
+language: scala
+scala:
+  - 2.11.12
+
+script:
+  - sbt ++$TRAVIS_SCALA_VERSION compile test:compile
+
+branches:
+  only:
+    - master
+    
+notifications:
+  email:
+    recipients:
+      - roberto.congiu@gmail.com
+jdk:
+  - oraclejdk8
