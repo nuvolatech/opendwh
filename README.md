@@ -1,5 +1,8 @@
+https://travis-ci.org/nuvolatech/opendwh.svg?branch=master
+
 Open Data Warehouse
 ====================
+
 
 In today's big data world, 'data warehouse' is a loaded term. Cool folks prefer other neologisms 
 like 'data lake', 'streaming data' and the likes, labaling 'Data Warehouse' as some relic of the relational past.
