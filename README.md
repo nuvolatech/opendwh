@@ -1,4 +1,4 @@
-https://travis-ci.org/nuvolatech/opendwh.svg?branch=master
+![Master build](https://travis-ci.org/nuvolatech/opendwh.svg?branch=master)
 
 Open Data Warehouse
 ====================
