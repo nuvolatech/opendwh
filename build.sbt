@@ -6,7 +6,7 @@ ThisBuild / scalaVersion := "2.11.12"
 lazy val commonSettings = Seq()
 
 
-lazy val feedServer = (project in file("wh-feed-server")).settings(commonSettings)
+lazy val feedServer = (project in file("wh-feed-server")).settings(commonSettings).enablePlugins(PlayScala)
   
 lazy val dwCoordinator = (project in file("dw-coordinator")).settings(commonSettings)
 

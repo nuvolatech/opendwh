@@ -1,0 +1,6 @@
+
+trait Granularity
+trait TimeBasedGranularity extends Granularity
+
+case object SecondGranularity extends TimeBasedGranularity
+case object MinuteGranularity extends TimeBasedGranularity
